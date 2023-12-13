@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn_dpt{
+    @apply  text-white bg-black rounded py-1 px-2 mb-3 text-sm
+}
+.btn{
+    @apply rounded border p-2 inline-block text-white
+}
+thead th{
+    @apply p-3
+}
+tbody tr td{
+    @apply border border-border_tabla p-3
+}
+.input{
+    @apply rounded border border-background py-1 px-2 my-3 
+}
+@keyframes desvanecer {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.fade{
+    animation-name: desvanecer;
+    animation-duration: 0.2s;
+}
