@@ -9,7 +9,7 @@
 
 ## Carpetas Importantes
 #### app\Http\Controllers  
-- Punto de entrada de la aplicación que redirige la navegación del usuario.
+- Punto de entrada de la aplicación que redirige la navegación del usuario y renderiza los componentes Vue.
 
 #### app\Http\Requests
 - Clases que permiten la validación de los datos enviados por formularios.
